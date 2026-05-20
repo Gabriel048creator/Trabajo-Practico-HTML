@@ -1,18 +1,47 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1508081883599-a58656e0ac48?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;      
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+                    
+
+}
+.tabla {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    color: blueviolet;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
 h1 {
     color: blueviolet;
 }
+ul{
+    color: aliceblue;
+
+}
 h2 {
     color:#9849F2;
+    text-align: center;
 }
-img {
-    align-items: center;
+.bandas {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    
 }
-p {
-    color: #7F14F5;
+h3 {
+    margin: 2%;
+    color: aliceblue;
 }
-body {
-    background-color: #D0F5F0;
-}
-table {
-    color: #007AF5;
+p {color: aliceblue;
+
 }
