@@ -35,8 +35,8 @@ h2 {
 .bandas {
     display: flex;
     justify-content:center;
-    align-content: center;
-    
+    flex-direction:column;
+
 }
 h3 {
     margin: 2%;
@@ -44,4 +44,9 @@ h3 {
 }
 p {color: aliceblue;
 
+}
+.historia {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
 }
